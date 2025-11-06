@@ -1,10 +1,15 @@
-<script setup></script>
+<script setup>
+  import { RouterLink, RouterView } from 'vue-router'
+</script>
 
 <template>
-  <h1>Fisher's Hood</h1>
-  <p>
-    Work in progress...
-  </p>
+  <div>
+    <main>
+      <RouterView />
+    </main>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
