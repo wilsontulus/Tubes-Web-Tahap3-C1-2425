@@ -33,8 +33,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
-  background: transparent;
-  position: relative;
+  backdrop-filter: blur(2px);
+  background:rgba(8, 44, 106, 0.25);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
   z-index: 10;
   color: white;
 }
@@ -78,10 +82,6 @@
 .right-buttons {
   display: flex;
   align-items: center;
-}
-
-.navbar {
-  max-width: 100%;
 }
 
 </style>

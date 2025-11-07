@@ -6,11 +6,10 @@ Oleh Kelompok 7, kelas C1 2024 (Selasa):
 - Willsoon Tulus P. S. (2404756)
 - Hatyja Kakajanova (2432601)
 
-## Indeks Halaman Web
+## Indeks
 
 1. Halaman depan: `/`
 2. Pemesanan alat mancing: `/shop`
-3. Checkout / Pembayaran: `/checkout`
 
 ## Konfigurasi
 

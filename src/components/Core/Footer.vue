@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <footer>
     
-  </div>
+  </footer>
 </template>
 
 <style lang="css" scoped>
