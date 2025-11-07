@@ -15,7 +15,7 @@ Oleh Kelompok 7, kelas C1 2024 (Selasa):
 
 Untuk mengubah host dan port dalam lingkungan pengembangan, dapat dilakukan dengan merubah isi file `vite.config.js` seperti host untuk mengubah alamat host (dapat diubah ke true atau 0.0.0.0 untuk membuka akses website dari luar), serta port untuk mengubah port hosting.
 
-```json
+```js
 server: {
   host: true,
   port: 5173,
