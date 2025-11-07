@@ -6,6 +6,12 @@ Oleh Kelompok 7, kelas C1 2024 (Selasa):
 - Willsoon Tulus P. S. (2404756)
 - Hatyja Kakajanova (2432601)
 
+## Indeks Halaman Web
+
+1. Halaman depan: `/`
+2. Pemesanan alat mancing: `/shop`
+3. Checkout / Pembayaran: `/checkout`
+
 ## Konfigurasi
 
 Untuk mengubah host dan port dalam lingkungan pengembangan, dapat dilakukan dengan merubah isi file `vite.config.js` seperti host untuk mengubah alamat host (dapat diubah ke true atau 0.0.0.0 untuk membuka akses website dari luar), serta port untuk mengubah port hosting.
