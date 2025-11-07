@@ -1,37 +1,44 @@
-# tubes-web-fishershood
+# Fisher's Hood
 
-This template should help get you started developing with Vue 3 in Vite.
+Website yang didesain untuk pemancing, dibuat untuk Tugas Besar Pemrograman Web & Mobile - Tahap 3
 
-## Recommended IDE Setup
+Oleh Kelompok 7, kelas C1 2024 (Selasa): 
+- Willsoon Tulus P. S. (2404756)
+- Hatyja Kakajanova (2432601)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Konfigurasi
 
-## Recommended Browser Setup
+Untuk mengubah host dan port dalam lingkungan pengembangan, dapat dilakukan dengan merubah isi file `vite.config.js` seperti host untuk mengubah alamat host (dapat diubah ke true atau 0.0.0.0 untuk membuka akses website dari luar), serta port untuk mengubah port hosting.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+```json
+server: {
+  host: true,
+  port: 5173,
+}
+```
 
-## Customize configuration
+Referensi konfigurasi lainnya dapat dilihat di halaman [Vite Configuration Reference](https://vite.dev/config/).
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Software yang diperlukan
 
-## Project Setup
+- Node.js versi 22.12.0 atau lebih baru
+- MariaDB / MySQL (untuk saat ini belum menggunakan database)
+
+## Instalasi Package
+
+### Untuk memasang modul Node.js yang diperlukan:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Untuk menjalankan package dalam lingkungan pengembangan:
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Untuk mengkompilasi package untuk penggunaan dalam lingkungan produksi:
 
 ```sh
 npm run build
